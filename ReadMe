@@ -1,0 +1,12 @@
+This file gives you about the how we are implementing DevOps tools for CI/CD
+In this Project we Implemented automation of SDLC using DevOps
+Tools that we used in this are 
+1.Git
+2.Maven
+3.Artifactory
+4.Jenkins
+5.Docker
+6.Ansible
+
+About Git
+Here I added the extra feautre in webhooks that is Merge request

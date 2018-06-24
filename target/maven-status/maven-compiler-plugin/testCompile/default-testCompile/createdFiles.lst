@@ -1,0 +1,6 @@
+Student/project/LoginFunctionalTest.class
+student/service/UserServiceTest.class
+Student/project/IntegrationTest.class
+student/controllerWithoutDb/RegisterTest.class
+student/controllerWithoutDb/LoginTest.class
+student/controllerWithoutDb/ChangePasswordTest.class
