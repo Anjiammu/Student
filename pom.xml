@@ -10,13 +10,13 @@
 	 <properties>
         <jdk.version>1.7</jdk.version>
     </properties>
-<distributionManagement>
-    <repository>
+<!--   <distributionManagement>
+       <repository>
         <id>central</id>
         <name>TG-DevOps-OS145-releases</name>
         <url>http://10.199.1.247:5040/artifactory/libs-release-local</url>
     </repository>
-</distributionManagement>
+</distributionManagement>   --!>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -112,7 +112,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+	<!--		<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
@@ -167,7 +167,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>  --!>
 
 
 		</plugins>
@@ -206,7 +206,7 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin> 
-				<plugin>
+		<!--		<plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
 					<artifactId>tomcat7-maven-plugin</artifactId>
 					<version>2.1</version>
@@ -223,7 +223,7 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-deploy-plugin</artifactId>
 					<version>2.7</version>
-				</plugin> 
+				</plugin>  --!>
 			</plugins>
 		</pluginManagement>  
 	</build> 
