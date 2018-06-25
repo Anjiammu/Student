@@ -10,13 +10,18 @@
 	 <properties>
         <jdk.version>1.7</jdk.version>
     </properties>
-<!--   <distributionManagement>
-       <repository>
+<distributionManagement>
+    <repository>
         <id>central</id>
-        <name>TG-DevOps-OS145-releases</name>
-        <url>http://10.199.1.247:5040/artifactory/libs-release-local</url>
+        <name>localhost-releases</name>
+        <url>http://13.126.255.131:8040/artifactory/Capstone</url>
     </repository>
-</distributionManagement>   -->
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost-snapshots</name>
+        <url>http://13.126.255.131:8040/artifactory/Capstone</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
