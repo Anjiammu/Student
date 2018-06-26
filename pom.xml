@@ -14,12 +14,12 @@
     <repository>
         <id>central</id>
         <name>localhost-releases</name>
-        <url>http://13.126.255.131:8040/artifactory/Capstone</url>
+        <url>http://13.232.16.167:8040/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>localhost-snapshots</name>
-        <url>http://13.126.255.131:8040/artifactory/Capstone</url>
+        <url>http://13.232.16.167:8040/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
   <dependencies>
