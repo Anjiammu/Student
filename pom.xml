@@ -14,7 +14,7 @@
     <repository>
         <id>central</id>
         <name>localhost-releases</name>
-        <url>http://13.232.16.167:8040/artifactory/libs-release-local</url>
+        <url>http://13.232.16.167:8040/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
   <dependencies>
