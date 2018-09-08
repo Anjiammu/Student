@@ -1,15 +1,17 @@
 pipeline{
-  agent Linux_Slave
+  agent none
     stages{
-      agent Linux_slave2
+      agent Linux_Slave
         stages('Build'){
           steps{
           echo "Building"
       }
     }
-    stage('Test')
-      steps{
-      echo "Testing............"
+      stage('Test'){
+        agent Linux_slave2
+          steps{
+            echo "Testing............"
       }
     }
  }
+}
