@@ -5,6 +5,7 @@ pipeline {
 stage ('Building'){
    agent {label 'Linux_Slave'}
     steps{
+        sh 'mvn clean package'
         echo "Building............"
     }
    }   
