@@ -3,7 +3,7 @@ pipeline {
     stages {
 
 stage ('Building'){
-   agent {label 'Linux_Slave'}
+   agent {label 'Linux_slave2'}
     steps{
         sh 'mvn clean package'
         echo "Building............"
@@ -13,6 +13,7 @@ stage ('Building'){
 stage ('Testing'){
    agent {label 'Linux_slave2'}
     steps{
+        sh 'mvn clean test'
         echo "Testing............"
     }
     }
