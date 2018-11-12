@@ -78,7 +78,7 @@
     <finalName>Student</finalName>
 
 	<plugins>
-		<!--	<plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<version>1.9.1</version>
@@ -112,7 +112,7 @@
 					</execution>
 				</executions>
 			</plugin>  -->
-	<!--		<plugin>
+		<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
@@ -140,7 +140,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+	<!--		<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
