@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
+    #This steps are used to build the pipeline as we required and will modify accordingly
 steps:
 - task: Maven@3
   inputs:
