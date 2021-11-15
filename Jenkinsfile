@@ -5,7 +5,7 @@ pipeline {
 stage ('Building'){
    steps{
         sh 'mvn clean package'
-        echo "Building............"
+        echo "Building............ testing the git stash commits"
     }
    }   
 
