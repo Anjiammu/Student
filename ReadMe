@@ -10,7 +10,9 @@ Tools that we used in this are
 7.Artifactory
 8.Ansible
 9.Tomcat
+
 This is to check the GIT REBAISING and git revision purpose
+This is also used for checking the Git Rebaising and also other components and as well as the DevOps CI/CD Process
 
 About Git
 Here I added the extra feautre in webhooks that is Merge request
