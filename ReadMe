@@ -7,6 +7,9 @@ Tools that we used in this are
 4.Jenkins
 5.Docker
 6.Ansible
+7.Artifactory
+8.Ansible
+9.Tomcat
 
 About Git
 Here I added the extra feautre in webhooks that is Merge request
